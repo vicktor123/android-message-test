@@ -12,6 +12,7 @@ composeBom = "2026.02.01"
 appcompat = "1.6.1"
 material = "1.10.0"
 agpVersion = "9.3.0"
+jetbrainsKotlinJvm = "2.3.20"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,9 +36,11 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 plugin-android-library = { module = "com.android.library:com.android.library.gradle.plugin", version.ref = "agp" }
-
+plugin-kotlin-jvm = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "jetbrainsKotlinJvm" }
 [plugins]
 custom-android-application={id="custom-android-application"}
 custom-android-library={id="custom-android-library"}
-android-library = { id = "com.android.library", version.ref = "agpVersion" }
+custom-kotlin-library={id="custom-kotlin-library"}
+
+
 

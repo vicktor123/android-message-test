@@ -24,6 +24,10 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/templates" />
             <option value="$PROJECT_DIR$/templates/android-library" />
+            <option value="$PROJECT_DIR$/templates/feature" />
+            <option value="$PROJECT_DIR$/templates/feature/domain" />
+            <option value="$PROJECT_DIR$/templates/feature/presentation" />
+            <option value="$PROJECT_DIR$/templates/kotlin-library" />
           </set>
         </option>
       </GradleProjectSettings>
